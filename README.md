@@ -14,6 +14,37 @@ A web-based application that detects whether news is **Real or Fake** using **Ma
 
 `Python` `Flask` `Machine Learning` `NLP` `HTML` `CSS`
 
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/zaderugved30-hue/fake-news-detection.git
+cd fake-news-detection
+```
+### 2️⃣ Create Virtual Environment
+
+```bash
+python -m venv .venv
+```
+### 3️⃣ Activate Virtual Environment
+
+**Windows:**
+
+```bash
+.venv\Scripts\activate
+```
+### 4️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+### 5️⃣ Run the Application
+
+```bash
+python app.py
+```
+
 ## 🔄 How It Works
 
 **Enter News → Text Processing → ML Model → Real / Fake Prediction**
@@ -33,6 +64,12 @@ A web-based application that detects whether news is **Real or Fake** using **Ma
 
 <img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/32f9f240-ffc3-4913-8ae9-f6da47c2381f" />
 
+### About Page
+<img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/8b6f60de-8203-461f-88a1-dd4d4d9c5398" />
+
+### Authenticity / Verification View
+<img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/70cac8a9-3d5c-45f0-b3ba-703cc9f586fb" />
+
 ## 🔗 Local URL
 
 After running the application, open:
@@ -51,5 +88,3 @@ python app.py
 **Rugved Zade**
 
 
-pip install -r requirements.txt
-python app.py
