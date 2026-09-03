@@ -64,10 +64,10 @@ python app.py
 
 <img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/32f9f240-ffc3-4913-8ae9-f6da47c2381f" />
 
-### About Page
+### ℹ️ About Page
 <img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/8b6f60de-8203-461f-88a1-dd4d4d9c5398" />
 
-### Authenticity / Verification View
+### 🛡️ Authenticity / Verification View
 <img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/70cac8a9-3d5c-45f0-b3ba-703cc9f586fb" />
 
 ## 🔗 Local URL
