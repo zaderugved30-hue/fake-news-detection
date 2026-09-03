@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Authenticity Guide — Fake News Detector</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { background: linear-gradient(135deg,#0f172a,#1e3a8a); }
+</style>
+</head>
+<body class="min-h-screen text-white p-6">
+<header class="max-w-4xl mx-auto py-8">
+<nav class="flex items-center justify-between">
+<a href="/" class="text-2xl font-bold">📰 Fake News Detector</a>
+<div class="space-x-4">
+<a href="/" class="px-3 py-2 rounded hover:bg-white/10">Home</a>
+<a href="/about" class="px-3 py-2 rounded hover:bg-white/10">About</a>
+<a href="/authenticity" class="px-3 py-2 rounded bg-white/10">Authenticity</a>
+<!-- <a href="/contact" class="px-3 py-2 rounded hover:bg-white/10">Contact</a> -->
+</div>
+</nav>
+</header>
+
+
+<main class="max-w-4xl mx-auto bg-white/5 p-8 rounded-2xl shadow-lg">
+<h1 class="text-3xl font-extrabold mb-4">How to check news authenticity</h1>
+
+
+<p class="mb-4">This page explains practical steps to verify whether a piece of news is reliable. Use these as a checklist when you see something suspicious.</p>
+
+
+<ol class="list-decimal pl-6 space-y-3">
+<li><strong>Check the source:</strong> Is the publishing domain known and reputable? Look for explicit author names and contact information.</li>
+<li><strong>Cross-check:</strong> Search for the same story on multiple reputable outlets. If only one obscure site reports it, be skeptical.</li>
+<li><strong>Examine dates and context:</strong> Outdated or context-less screenshots are often recycled to mislead.
+</li>
+<li><strong>Look for original reporting:</strong> Reliable stories often cite primary sources such as official statements, research papers, or direct interviews.</li>
+<li><strong>Reverse-image search:</strong> For images, use reverse-image tools to see where the picture originally appeared.</li>
+<li><strong>Read beyond the headline:</strong> Sensational headlines may not match the story; open the article and read the full text.</li>
+</ol>
+
+
+<section class="mt-6 bg-white/10 p-4 rounded-lg">
+<h2 class="text-xl font-semibold mb-2">How our detector helps</h2>
+<p>The web app runs both a local ML model and a cloud-based LLM (Gemini). If our system flags a story as fake, it means one or both detectors found strong signals — but always apply the checklist above before sharing.</p>
+</section>
+
+
+<footer class="mt-6 text-sm text-gray-300">Last updated: <span id="last-updated">—</span></footer>
+</main>
+
+
+<script>
+// Change this date string when you update the page.
+document.getElementById('last-updated').innerText = 'Nov 7, 2025';
+</script>
+</body>
+</html>

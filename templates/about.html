@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>About — Fake News Detector</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>body { background: linear-gradient(135deg,#0f172a,#6d28d9); }</style>
+</head>
+<body class="min-h-screen text-white p-6">
+<header class="max-w-4xl mx-auto py-8">
+<nav class="flex items-center justify-between">
+<a href="/" class="text-2xl font-bold">📰 Fake News Detector</a>
+<div class="space-x-4">
+<a href="/" class="px-3 py-2 rounded hover:bg-white/10">Home</a>
+<a href="/about" class="px-3 py-2 rounded bg-white/10">About</a>
+<a href="/authenticity" class="px-3 py-2 rounded hover:bg-white/10">Authenticity</a>
+<!-- <a href="/contact" class="px-3 py-2 rounded hover:bg-white/10">Contact</a> -->
+</div>
+</nav>
+</header>
+
+
+<main class="max-w-4xl mx-auto bg-white/5 p-8 rounded-2xl shadow-lg">
+<h1 class="text-3xl font-extrabold mb-4">About This Project</h1>
+<p class="mb-4">A short intro: this project combines a small local ML classifier with a cloud LLM (Gemini) to flag possible fake news. It is intended for educational/demo purposes and should not replace professional fact-checking.</p>
+
+
+<h2 class="text-2xl font-semibold mt-4 mb-2">Team / Credits</h2>
+<p class="mb-4">You can list your name, institution, and contributors here. Replace this paragraph with project credits and any external libraries used (Flask, Transformers, LangChain).</p>
+
+
+<h2 class="text-2xl font-semibold mt-4 mb-2">Technical Summary</h2>
+<ul class="list-disc pl-6">
+<li>Local PyTorch-based classifier (small fine-tuned transformer)</li>
+<li>LLM-based secondary check using Google Gemini (LangChain wrapper)</li>
+<li>Flask front-end with simple template rendering</li>
+</ul>
+
+
+<div class="mt-6 bg-white/10 p-4 rounded-lg">
+<h3 class="font-semibold">Notes</h3>
+<p class="text-sm">Make sure to remove any hard-coded API keys from production code. Use environment variables for sensitive values.</p>
+</div>
+</main>
+</body>
+</html>
+
